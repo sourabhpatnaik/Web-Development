@@ -1,0 +1,79 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  height: 100vh;
+  font-size: 1em;
+  background-image: url(file:///D:/MY%20FILES/Web%20Dev/Task-1/order-summary-component-main/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+#mid-box
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 380px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 10px 40px -15px hsl(224, 23%, 55%);
+}
+.up-img
+{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#Summary
+{
+  margin: 2em 0 1em 0;
+}
+#summary h1
+{
+  color: hsl(223, 47%, 23%);
+  font-size: 1.4em;
+  font-weight: 900;
+}
+#summary p
+{
+  color: hsl(224, 23%, 55%);
+  font-size: 1em;
+  line-height: 1.6em;
+  padding: 1em 3em 0 3em;
+
+}
+
+#plan
+{
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 1em 0;
+  margin: 0 2.5em;
+}
+.plan-img
+{
+  width: 13%;
+  padding: 0 1.1em;
+}
+#plan h2
+{
+    color: hsl(223, 47%, 23%);
+    font-size: .9em;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+#plan p
+{
+    color: hsl(224, 23%, 55%);
+    font-size: .9em;
+}
