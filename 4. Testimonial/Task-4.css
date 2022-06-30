@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: Barlow Semi Condensed;
+
+
+}
+
+.img-1 {
+
+    border-radius: 100%;
+    background-color: hsl(263, 86%, 73%);
+    padding: 3px;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 15px;
+}
+
+.img {
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 15px;
+}
+
+#itembox-1 {
+    grid-column: 1 / span 2;
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin-right: 35px;
+    padding: 30px;
+
+}
+
+#itembox-1 h3 {
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+#itembox-1 p {
+    font-size: 15px;
+    color: hsl(263, 86%, 73%);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box-1-text {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.box-1-text p {
+    font-size: 13px;
+}
+
+.whitecol {
+    color: white;
+    font-weight: 200;
+}
+
+#itembox-2 {
+    grid-column: 3;
+    position: relative;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    margin-right: 35px;
+    padding: 30px;
+
+}
+
+#itembox-2 h3 {
+    font-weight: 500;
+    color: white;
+    padding-bottom: 40px;
+    font-weight: 900;
+}
+
+#itembox-2 p {
+    font-size: 15px;
+    color: hsl(0, 0%, 81%);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box-2-text {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.box-2-text p {
+    font-size: 13px;
+}
+
+#itembox-3 {
+    grid-column: 1;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 5px 15px 30px -15px hsl(229, 6%, 66%);
+    margin-top: 35px;
+    margin-right: 35px;
+    padding: 30px;
+    margin-bottom: 35px;
+
+}
+
+#itembox-3 h3 {
+    font-weight: 500;
+    color: hsl(217, 19%, 35%);
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+#itembox-3 p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box-3-text {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.box-3-text p {
+    font-size: 13px;
+}
+
+#itembox-4 {
+    grid-column: 2 / span 2;
+    position: relative;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-right: 35px;
+    padding: 30px;
+    margin-bottom: 35px;
+
+}
+
+#itembox-4 h3 {
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+#itembox-4 p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box-4-text {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.box-4-text p {
+    font-size: 13px;
+}
+
+#itembox-5 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 5px 15px 30px -15px hsl(229, 6%, 66%);
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+#itembox-5 h3 {
+    font-weight: 500;
+    color: hsl(217, 19%, 35%);
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+
+#itembox-5 p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.box-5-text {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.box-5-text p {
+    font-size: 13px;
+}
